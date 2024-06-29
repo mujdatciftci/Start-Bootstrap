@@ -1,0 +1,48 @@
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+body {
+       overflow-x: hidden;
+}
+
+
+.background {
+       background-color: #2c3e50;
+}
+
+.background-main {
+       background-color: #1abc9c;
+}
+
+.navbar button {
+       border: 0px;
+}
+.navbar-toggler:focus {
+       box-shadow: 0px 0px 0px 0.1rem rgba(255,255,255,1) !important;
+}
+.offcanvas {
+       max-width: 300px !important;
+}
+
+@media (min-width: 768px) { 
+       
+       .offcanvas-body a {
+              color: #fff !important;
+       }
+}
+
+@media (max-width:768px) {
+       .offcanvas-body {
+              background-color: #f8f9fa;
+       }
+}
+
+@media (max-width:576px) {
+       .cards-list img {
+              padding: 1rem;
+              border-radius: 2rem !important;
+       }
+}
