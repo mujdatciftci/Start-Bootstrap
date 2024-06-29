@@ -23,6 +23,10 @@ body {
 .navbar-toggler:focus {
        box-shadow: 0px 0px 0px 0.1rem rgba(255,255,255,1) !important;
 }
+
+.navbar-nav a:hover {
+       color: #1abc9c !important;
+}
 .offcanvas {
        max-width: 300px !important;
 }
